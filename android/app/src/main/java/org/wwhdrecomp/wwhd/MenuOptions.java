@@ -53,8 +53,8 @@ final class MenuOptions {
         variantRead = true;
         try {
             String r = c.getString(R.string.variant_rate), a = c.getString(R.string.variant_autores);
-            if (r.equals("30") || r.equals("60") || r.equals("120")) variantRate = r;
-            if (a.equals("off") || a.equals("30") || a.equals("60") || a.equals("120")) variantAutoRes = a;
+            if (r.equals("30") || r.equals("60")) variantRate = r;  // 120 hidden
+            if (a.equals("off") || a.equals("30") || a.equals("60")) variantAutoRes = a;  // 120 hidden
         } catch (RuntimeException ignored) {}
     }
 
@@ -67,11 +67,12 @@ final class MenuOptions {
                 OptionSpec.choice("res", c("0.25", "0,25×"), c("0.5", "0,5×"), c("0.75", "0,75×"), c("1", "1×"), c("1.5", "1,5×"), c("2", "2×")).def("1"),
                 // the logic stays at 60 steps a second at every rate: 30 draws and presents every other frame
                 // (docs/30fps.md), 120 adds interpolated in-between pictures (CPU cost)
-                OptionSpec.choice("rate", c("30", "@rate_30"), c("60", "60"), c("120", "120")).def(variantRate),
+                // 120 fps is hidden in this build (1.0): 30 and 60 only
+                OptionSpec.choice("rate", c("30", "@rate_30"), c("60", "60")).def(variantRate),
                 // at 60 and 120: drop to 30 (every other frame) only while the game cannot keep 60 (docs/frameskip.md);
                 // the old "always" is the rate 30 now (Store migrates it)
                 OptionSpec.choice("frameskip", c("off", "@fs_off"), c("auto", "@fs_auto")).def("auto"),
-                OptionSpec.choice("autores", c("off", "@ar_off"), c("30", "@ar_30"), c("60", "@ar_60"), c("120", "@ar_120")).def(variantAutoRes),
+                OptionSpec.choice("autores", c("off", "@ar_off"), c("30", "@ar_30"), c("60", "@ar_60")).def(variantAutoRes),
                 OptionSpec.bool("shadows"),
                 OptionSpec.bool("rt_mips"),
                 OptionSpec.bool("aniso").def("0"),
@@ -133,6 +134,9 @@ final class MenuOptions {
             // frame skip "always" (before the rate 30 existed) is the rate 30 now, with the automatic drop kept
             if ("on".equals(prefs.getString("frameskip", null)))
                 prefs.edit().putString("rate", "30").putString("frameskip", "auto").apply();
+            // 120 fps is hidden: a saved 120 (rate or automatic resolution target) becomes 60
+            if ("120".equals(prefs.getString("rate", null))) prefs.edit().putString("rate", "60").apply();
+            if ("120".equals(prefs.getString("autores", null))) prefs.edit().putString("autores", "60").apply();
         }
         String raw(String key) {
             if (key.equals("touch")) return controls.getBoolean("touch_controls", true) ? "1" : "0";
