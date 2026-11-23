@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Super Mario 3D World build: Options > Driver (DriverStore, DriverCatalog, DriverDownload; from the Diablo III port). -->
+<resources>
+    <string name="tab_driver">Driver</string>
+    <string name="tab_driver_sub">Driver de GPU: Turnip baixado ou importado</string>
+    <string name="opt_driver">Driver da GPU</string>
+    <string name="opt_driver_sub">O driver do próprio celular, ou um Turnip baixado ou importado. Vale na próxima abertura do jogo.</string>
+    <string name="opt_driver_download">Baixar um driver</string>
+    <string name="opt_driver_download_sub">Builds do Turnip de repositórios públicos do GitHub, conferidos antes de serem guardados.</string>
+    <string name="opt_driver_import">Importar um driver (.zip)</string>
+    <string name="opt_driver_import_sub">Um pacote no formato AdrenoTools (meta.json e o .so). Ele roda junto com o jogo: importe só o que você confia.</string>
+    <string name="opt_driver_delete">Excluir um driver</string>
+    <string name="opt_driver_delete_sub">Apaga um driver instalado e o cache de pipelines dele.</string>
+    <string name="opt_gpu">GPU</string>
+    <string name="opt_gpu_sub">Se o jogo fechar logo ao abrir com um driver novo, o do sistema volta sozinho.</string>
+    <string name="cap_download">Baixar</string>
+    <string name="driver_system">Sistema</string>
+    <string name="why_no_driver_support">Drivers personalizados (Turnip) só funcionam em GPUs Adreno (celulares Qualcomm).</string>
+    <string name="why_no_driver_imported">Nenhum driver instalado ainda: use Baixar um driver ou Importar um driver.</string>
+    <string name="say_driver_imported">%1$s instalado e escolhido. Reinicie o jogo para usá-lo.</string>
+    <string name="confirm_driver_delete">Excluir o driver %1$s?</string>
+    <string name="driver_delete_running">O jogo está usando %1$s agora. Escolha o driver do sistema, reinicie o jogo e exclua depois.</string>
+    <string name="busy_driver">Conferindo e instalando o driver…</string>
+    <string name="driver_err_open">Não deu para abrir o arquivo escolhido.</string>
+    <string name="driver_err_big">O arquivo é grande demais para ser um driver.</string>
+    <string name="driver_err_format">Isso não é um .zip de driver que o app entende.</string>
+    <string name="driver_err_nometa">O .zip não tem meta.json: não é um pacote de driver (formato AdrenoTools).</string>
+    <string name="driver_err_meta">O meta.json do pacote não serve: %1$s</string>
+    <string name="driver_err_nolib">O .zip não tem %1$s, a biblioteca que o meta.json indica.</string>
+    <string name="driver_err_arch">%1$s não é uma biblioteca arm64.</string>
+    <string name="catalog_title">Baixar um driver</string>
+    <string name="catalog_where">Onde você quer procurar?</string>
+    <string name="catalog_asking">Consultando os releases no GitHub…</string>
+    <string name="catalog_empty">Nenhum pacote .zip ou .adpkg nos últimos releases.</string>
+    <string name="catalog_pick">✓ = o release lista um checksum, conferido depois do download. Escolha um para baixar e instalar.</string>
+    <string name="catalog_downloading">Baixando</string>
+    <string name="catalog_failed">Não foi possível instalar</string>
+    <string name="catalog_installed">Instalado</string>
+    <string name="catalog_note_purple">Turnip para Adreno</string>
+    <string name="catalog_note_weab">builds automáticos do Turnip do Mesa</string>
+    <string name="catalog_note_white">Turnip no formato AdrenoTools</string>
+    <string name="catalog_note_kimchi">pacotes Turnip e Qualcomm</string>
+    <string name="catalog_err_limit">O GitHub está limitando as consultas: tente daqui a pouco.</string>
+    <string name="catalog_err_http">O GitHub respondeu com um erro.</string>
+    <string name="catalog_err_offline">Sem conexão com o GitHub.</string>
+    <string name="catalog_err_checksum">O arquivo baixado não bate com o checksum: descartado.</string>
+    <string name="catalog_err_format">Isso não é um pacote de driver que o app entende (ou passa de 200 MB).</string>
+</resources>

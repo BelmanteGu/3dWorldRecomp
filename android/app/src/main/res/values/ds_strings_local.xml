@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The design system's texts this app takes from the newer design system of the sibling port (the Statistics
+     screen, "Open game directly"). Kept apart from ds_strings.xml (the shared reference file). -->
+<resources>
+    <!-- Statistics screen (StatsScreen) -->
+    <string name="ds_stats_title">Statistics</string>
+    <string name="ds_stats_copy">Copy report</string>
+    <string name="ds_stats_share">Share</string>
+    <string name="ds_stats_save">Save .zip</string>
+    <string name="ds_stats_report">Report a problem</string>
+    <string name="ds_stats_none">no data yet</string>
+    <string name="ds_stats_session">Last session</string>
+    <string name="ds_stats_empty">Play a session: the numbers come from the game\'s own frame log.</string>
+    <string name="ds_stats_avg">Average fps</string>
+    <string name="ds_stats_low">1% low</string>
+    <string name="ds_stats_worst">Worst</string>
+    <string name="ds_stats_gpu">GPU frame</string>
+    <string name="ds_stats_scale">Render scale</string>
+    <string name="ds_stats_graph_note">%1$d readings, one every 2 s (green: on target, yellow: a little under, red: well under)</string>
+    <string name="ds_stats_history">Recent sessions</string>
+    <string name="ds_stats_total">All time</string>
+    <string name="ds_stats_playtime">Play time</string>
+    <string name="ds_stats_sessions">Sessions</string>
+    <string name="ds_stats_device">This device</string>
+    <string name="ds_stats_note">From the game\'s own frame log: nothing is estimated. The 1% low is the slowest frames of each reading.</string>
+    <string name="ds_dev_model">Phone</string>
+    <string name="ds_dev_android">Android</string>
+    <string name="ds_dev_soc">Chip</string>
+    <string name="ds_dev_gpu">GPU</string>
+    <string name="ds_dev_driver">Driver</string>
+    <string name="ds_dev_ram">Memory</string>
+    <string name="ds_dev_battery">Battery</string>
+    <string name="ds_dev_gpu_unknown">known after the first session</string>
+
+    <!-- Open game directly -->
+    <string name="ds_autostart_failed">The game closed while starting last time, so the home screen opened instead. "Open game directly" is still on (Options, About).</string>
+</resources>

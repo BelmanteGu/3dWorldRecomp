@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos do design system vindos da versão mais nova do port irmão (tela de Estatísticas, "Abrir jogo diretamente"). -->
+<resources>
+    <!-- Tela de estatísticas (StatsScreen) -->
+    <string name="ds_stats_title">Estatísticas</string>
+    <string name="ds_stats_copy">Copiar relatório</string>
+    <string name="ds_stats_share">Compartilhar</string>
+    <string name="ds_stats_save">Salvar .zip</string>
+    <string name="ds_stats_report">Relatar um problema</string>
+    <string name="ds_stats_none">sem dados ainda</string>
+    <string name="ds_stats_session">Última sessão</string>
+    <string name="ds_stats_empty">Jogue uma sessão: os números vêm do próprio registro de quadros do jogo.</string>
+    <string name="ds_stats_avg">FPS médio</string>
+    <string name="ds_stats_low">1% mais baixo</string>
+    <string name="ds_stats_worst">Pior</string>
+    <string name="ds_stats_gpu">Quadro da GPU</string>
+    <string name="ds_stats_scale">Escala de renderização</string>
+    <string name="ds_stats_graph_note">%1$d leituras, uma a cada 2 s (verde: no alvo, amarelo: um pouco abaixo, vermelho: bem abaixo)</string>
+    <string name="ds_stats_history">Sessões recentes</string>
+    <string name="ds_stats_total">Desde o início</string>
+    <string name="ds_stats_playtime">Tempo de jogo</string>
+    <string name="ds_stats_sessions">Sessões</string>
+    <string name="ds_stats_device">Este aparelho</string>
+    <string name="ds_stats_note">Do próprio registro de quadros do jogo: nada é estimado. O 1% mais baixo são os quadros mais lentos de cada leitura.</string>
+    <string name="ds_dev_model">Celular</string>
+    <string name="ds_dev_android">Android</string>
+    <string name="ds_dev_soc">Chip</string>
+    <string name="ds_dev_gpu">GPU</string>
+    <string name="ds_dev_driver">Driver</string>
+    <string name="ds_dev_ram">Memória</string>
+    <string name="ds_dev_battery">Bateria</string>
+    <string name="ds_dev_gpu_unknown">conhecida depois da primeira sessão</string>
+
+    <!-- Abrir jogo diretamente -->
+    <string name="ds_autostart_failed">O jogo fechou enquanto abria da última vez, então a tela inicial abriu no lugar. "Abrir jogo diretamente" continua ligado (Opções, Sobre).</string>
+</resources>

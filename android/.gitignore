@@ -1,0 +1,12 @@
+# build output; app/libs holds libmain.so, the recompiled game: never commit or share it
+build/
+build-*/
+app/build/
+app/libs/
+# the launcher icon made from the game's own icon (make_icon.py)
+app/local-res/
+# shaders translated from your game on the PC (tools/sm3dw_shader_pack.sh): game-derived, never commit
+app/local-assets/
+.gradle/
+local.properties
+*.apk

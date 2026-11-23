@@ -1,0 +1,8 @@
+# Super Mario 3D World (RECOMP_GAME=sm3dw): widescreen, runtime/src/sm3dw/aspect_sm3dw.cpp.
+023D7724  # sead::PerspectiveProjection matrix + culling frustum (reads aspect +0xE4)
+0263530C  # layout projection upload (GX2SetVertexUniformReg 16 regs): 2D undistorted, centred
+0262D5CC  # nw::font text draw: its projection upload is tagged like the layouts'
+02636D34  # nw::lyt Pane::CalculateMtx: edge anchoring of TV layout panes
+02637768  # nw::lyt Pane::Draw: which screen each layout root is drawn to
+@026377B4 # Pane::Draw: bctrl DrawSelf (clipping of content outside the 16:9 region starts)
+@026377B8 # ... and ends

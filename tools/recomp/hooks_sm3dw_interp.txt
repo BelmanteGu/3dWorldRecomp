@@ -1,0 +1,10 @@
+# Super Mario 3D World (RECOMP_GAME=sm3dw): frame interpolation (120 fps presents, logic at 60 steps/s),
+# runtime/src/sm3dw/interp_sm3dw.cpp. Study: docs/sm3dw-120fps.md.
+024DB2B8  # RedCarpet procFrame_: draw (replay last list), calc, record list, swap, wait vsync
+024DB728  # procDraw_: GX2DirectCallDisplayList of list[+0x388] (TV, DRC), then +0x388 ^= 1
+02374FA0  # sead procCalc_: the game logic of one step
+024DBA84  # record the frame's display lists (BeginDisplayList, draw tree, EndDisplayList)
+024E7574  # model calcWorld(model, baseMtx, scale): SkeletonObj::CalcWorldMtx
+024E762C  # model calcView(model, viewMtx): shape blocks + skeleton view matrices
+024E76DC  # model: advance the uniform buffer ring index
+02375030  # wait for vsync (GX2WaitForVsync until every swap has flipped): frame work timing

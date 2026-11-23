@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Frame-rate rows of the in-game menu (MenuOptions: rate, frameskip, autores) -->
+<resources>
+    <string name="opt_rate">Velocidad de fotogramas</string>
+    <string name="opt_rate_sub">30 mantiene el juego a velocidad normal (lógica a 60) y dibuja un fotograma de cada dos: para móviles modestos, menos calor y batería. 120 muestra imágenes intermedias (pide pantalla de 120 Hz y gasta más CPU y batería).</string>
+    <string name="rate_30">30 (velocidad total)</string>
+    <string name="opt_frameskip">Bajar a 30 si va lento</string>
+    <string name="opt_frameskip_sub">Vale en 60 y 120. Si el móvil no llega a 60 fotogramas por segundo el juego iría a cámara lenta; en automático dibuja un fotograma de cada dos (como en 30) solo mientras haga falta. En 30 no cambia nada.</string>
+    <string name="fs_off">Desactivado</string>
+    <string name="fs_auto">Automático</string>
+    <string name="opt_autores">Resolución automática</string>
+    <string name="opt_autores_sub">Baja la resolución interna cuando la GPU no mantiene el ritmo elegido; la resolución de arriba es el techo.</string>
+    <string name="ar_off">Desactivada</string>
+    <string name="ar_30">Mantener 30</string>
+    <string name="ar_60">Mantener 60</string>
+    <string name="ar_120">Mantener 120</string>
+</resources>

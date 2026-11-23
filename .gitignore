@@ -1,0 +1,53 @@
+# Nothing from the game enters this repository: game files, keys, generated code, shaders, saves, APKs.
+/game/
+/game3dw/
+game.wux
+game.key
+keys.txt
+*.rpx
+*.wud
+*.wux
+*.wua
+*.iso
+*.rvz
+*.key
+*.apk
+*.aab
+# generated / build output
+/build/
+/dist/
+/bench_out/
+/captures/
+/save/
+out/
+__pycache__/
+.cache/
+compile_commands.json
+/android/app/build/
+/android/app/libs/
+/android/app/local-assets/
+/android/build/
+/android/build-generic/
+/android/build-*/
+.gradle/
+local.properties
+# caches and templates derived from the game
+template.bin
+shaderprep_template.bin
+headstart.bin
+shaderpack.bin
+# logs, dumps and screenshots (may contain game text or imagery)
+*.log
+*.metal
+*.tsv
+trace_dump.txt
+frame_*.png
+draw_*.png
+failed_shader_*.metal
+filelist.txt
+extract.log
+# local tooling
+.DS_Store
+.forgeview/
+.flowforge/
+/task.md

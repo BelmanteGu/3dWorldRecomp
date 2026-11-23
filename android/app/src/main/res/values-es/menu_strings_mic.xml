@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The GamePad microphone rows of the in-game menu (MenuOptions: mic, mic_sens; docs/mic.md) -->
+<resources>
+    <string name="opt_mic">Soplar (micrófono del GamePad)</string>
+    <string name="opt_mic_sub">Cosas que se soplan: dientes de león, arbustos, Toads y los ascensores que se mueven soplando. Micrófono: sopla en el micrófono del móvil (pide el permiso; la voz y el ruido se filtran). Botón: un botón de soplar en la pantalla.</string>
+    <string name="mic_off">Desactivado</string>
+    <string name="mic_mic">Micrófono</string>
+    <string name="mic_button">Botón</string>
+    <string name="opt_mic_sens">Sensibilidad del soplido</string>
+    <string name="opt_mic_sens_sub">Súbela si soplar no hace nada; bájala si el juego reacciona al ruido.</string>
+    <string name="mic_denied">Sin permiso del micrófono: soplar queda desactivado. Usa \"Botón\" o permite el micrófono en los ajustes de Android.</string>
+</resources>

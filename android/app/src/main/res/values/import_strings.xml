@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Super Mario 3D World build: the first-run screen (GameSetupActivity) and the game import (GameImportService). -->
+<resources>
+    <string name="first_kicker">PORT NATIVO PARA ANDROID</string>
+    <string name="first_subtitle">Port nativo para Android</string>
+    <string name="first_play">Jogar</string>
+    <string name="first_import">Importar jogo</string>
+    <string name="first_help">Ajuda</string>
+    <string name="first_locked">Importe o jogo primeiro</string>
+    <string name="first_busy">Espere a importação terminar</string>
+    <string name="first_wait">Um momento…</string>
+    <string name="first_ready">Jogo pronto</string>
+    <string name="first_resume">Continuar importação</string>
+    <string name="first_missing_title">Falta o jogo</string>
+    <string name="first_missing_text">Este app traz só o código do jogo. Importe o seu dump do disco (.wux ou .wud com o keys.txt) ou um arquivo do Cemu (.wua). Nada sai do celular.</string>
+    <string name="first_paused_title">Importação interrompida</string>
+    <string name="first_paused_text">O app foi fechado no meio da importação. Ela continua de onde parou.</string>
+    <string name="first_pick_title">Importar jogo</string>
+    <string name="first_pick_text">Escolha o arquivo do jogo: a imagem do disco (.wux ou .wud) ou o arquivo do Cemu (.wua). Para .wux e .wud você escolhe o keys.txt em seguida.</string>
+    <string name="first_pick_text_again">O jogo atual continua instalado até a nova importação terminar. Escolha a imagem do disco (.wux ou .wud) ou o arquivo do Cemu (.wua).</string>
+    <string name="first_pick_button">Escolher arquivo</string>
+    <string name="first_keys_title">Agora o keys.txt</string>
+    <string name="first_keys_text">%1$s é uma imagem de disco criptografada. Escolha o keys.txt (a lista de chaves do Cemu) ou os arquivos de chave do seu console. O app acha sozinho a chave do disco e a chave comum do Wii U. As chaves não são guardadas.</string>
+    <string name="first_keys_button">Escolher keys.txt</string>
+    <string name="first_no_picker">Este celular não tem um seletor de arquivos.</string>
+    <string name="first_help_title">Como importar o jogo</string>
+    <string name="first_help_text">Este app foi feito a partir do Super Mario 3D World %1$s. Ele precisa do mesmo jogo, tirado do seu disco.\n\n1. Copie para o celular (pasta Download, por exemplo) a imagem do disco (.wux ou .wud) e o keys.txt, ou o arquivo .wua do Cemu.\n2. Toque em Importar jogo e escolha o arquivo. Para .wux e .wud, escolha depois o keys.txt.\n3. Espere a importação (alguns minutos). Ela continua com a tela apagada. O jogo abre sozinho no fim.\n\nÉ preciso cerca de 2 GB livres. Depois de importar, você pode apagar a imagem do disco.\n\nOs arquivos do jogo ficam em:\n%2$s\n\nNenhum arquivo do jogo vem com o app nem sai do celular.</string>
+
+    <string name="import_channel">Importação do jogo</string>
+    <string name="import_notify_title">Importando o jogo</string>
+    <string name="import_notify_done">Jogo importado</string>
+    <string name="import_notify_done_text">Toque para jogar</string>
+    <string name="import_notify_failed">A importação falhou</string>
+    <string name="import_step_prepare">Lendo o arquivo do jogo</string>
+    <string name="import_step_code">Extraindo o código do jogo</string>
+    <string name="import_step_check">Conferindo a versão do jogo</string>
+    <string name="import_step_verify">Conferindo o arquivo .wua</string>
+    <string name="import_step_extract">Extraindo o jogo</string>
+    <string name="import_step_finish">Finalizando</string>
+    <string name="import_done">Jogo importado</string>
+    <string name="import_cancel">Cancelar</string>
+    <string name="import_cancel_title">Cancelar a importação?</string>
+    <string name="import_cancel_text">O que já foi extraído é apagado. O jogo instalado antes (se houver) continua.</string>
+    <string name="import_cancelled">Importação cancelada</string>
+    <string name="import_failed_title">Não deu para importar</string>
+    <string name="import_err_title">Este disco é o Super Mario 3D World %1$s, mas este app foi feito a partir da versão %2$s. Use um dump dessa versão.</string>
+    <string name="import_err_build_known">Este jogo é a versão %1$s, mas este app foi feito a partir da versão %2$s. O código do app só funciona com essa versão.</string>
+    <string name="import_err_build">O código deste jogo (RedCarpet.rpx) não é o mesmo a partir do qual este app foi feito. Use um dump do mesmo disco (mesma região e revisão).</string>
+    <string name="import_err_norpx">O arquivo não tem o código do Super Mario 3D World (code/RedCarpet.rpx). É outro jogo?</string>
+    <string name="import_err_space">Falta espaço: a importação precisa de %1$s livres e o celular tem %2$s.</string>
+    <string name="import_err_write">Não deu para gravar os arquivos do jogo. Confira se há espaço livre.</string>
+    <string name="import_err_read">Erro ao ler o arquivo: %1$s</string>
+    <string name="import_err_open">Não deu para abrir o arquivo escolhido. Copie-o para a memória do celular (pasta Download) e tente de novo.</string>
+    <string name="import_err_keyopen">Não deu para abrir o keys.txt escolhido.</string>
+    <string name="import_err_keyfile">O arquivo escolhido como keys.txt é grande demais para ser uma lista de chaves.</string>
+    <string name="import_err_needkeys">Esta imagem de disco é criptografada: escolha também o keys.txt.</string>
+    <string name="import_err_disckey">Nenhuma chave do keys.txt abre este disco. Falta a chave deste disco (cada disco tem a sua): adicione-a ao keys.txt.</string>
+    <string name="import_err_commonkey">A chave do disco foi encontrada, mas falta a chave comum do Wii U (Wii U common key) no keys.txt.</string>
+    <string name="import_err_damaged">O arquivo está danificado ou incompleto (cópia ou download interrompido). Copie de novo.</string>
+    <string name="import_err_notitle">O arquivo .wua não tem um jogo só (ou não tem nenhum).</string>
+    <string name="import_err_format">Não é uma imagem de disco do Wii U (.wux ou .wud) nem um arquivo do Cemu (.wua), ou não deu para lê-lo.</string>
+    <string name="import_err_packed">Descompacte o arquivo antes e escolha o .wux, .wud ou .wua que está dentro.</string>
+
+    <string name="opt_reimport">Reimportar jogo</string>
+    <string name="opt_reimport_sub">Importa o jogo de novo a partir do seu dump (.wux, .wud ou .wua). O jogo fecha.</string>
+    <string name="reimport_title">Reimportar o jogo?</string>
+    <string name="reimport_text">O jogo fecha e abre a tela de importação. O jogo atual só é trocado quando a nova importação terminar. Seus saves ficam.</string>
+    <string name="home_saves">Saves</string>
+    <string name="home_saves_text">Exportar cria um .zip na pasta Downloads (o mesmo formato da pasta save/ do PC) e abre o compartilhamento. Importar troca o save atual por um .zip; o atual fica guardado como cópia.</string>
+    <string name="home_saves_none">Ainda não há save neste celular. Importe um .zip exportado daqui ou da pasta save/ do PC (precisa ter user/GameData.bin).</string>
+</resources>

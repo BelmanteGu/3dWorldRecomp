@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Frame-rate rows of the in-game menu (MenuOptions: rate, frameskip, autores) -->
+<resources>
+    <string name="opt_rate">Frame rate</string>
+    <string name="opt_rate_sub">30 keeps the game at full speed (logic at 60) and draws every other frame: for weak phones, less heat and battery. 120 shows in-between pictures (needs a 120 Hz screen and uses more CPU and battery).</string>
+    <string name="rate_30">30 (full speed)</string>
+    <string name="opt_frameskip">Drop to 30 when slow</string>
+    <string name="opt_frameskip_sub">Applies at 60 and 120. If the phone cannot reach 60 frames a second the game would run in slow motion; automatic then draws every other frame (as at 30) only while needed. No effect at 30.</string>
+    <string name="fs_off">Off</string>
+    <string name="fs_auto">Automatic</string>
+    <string name="opt_autores">Automatic resolution</string>
+    <string name="opt_autores_sub">Lowers the internal resolution when the GPU cannot keep the chosen rate; the resolution above is the ceiling.</string>
+    <string name="ar_off">Off</string>
+    <string name="ar_30">Keep 30</string>
+    <string name="ar_60">Keep 60</string>
+    <string name="ar_120">Keep 120</string>
+</resources>

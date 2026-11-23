@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The GamePad microphone rows of the in-game menu (MenuOptions: mic, mic_sens; docs/mic.md) -->
+<resources>
+    <string name="opt_mic">Blow (GamePad microphone)</string>
+    <string name="opt_mic_sub">Things you blow on: dandelions, bushes, Toads and the blow-powered lifts. Microphone: blow on the phone\'s microphone (asks for the permission; speech and noise are filtered out). Button: an on-screen blow button.</string>
+    <string name="mic_off">Off</string>
+    <string name="mic_mic">Microphone</string>
+    <string name="mic_button">Button</string>
+    <string name="opt_mic_sens">Blow sensitivity</string>
+    <string name="opt_mic_sens_sub">Raise it if blowing does nothing; lower it if the game reacts to noise.</string>
+    <string name="mic_denied">No microphone permission: blowing stays off. Use \"Button\" or allow the microphone in Android\'s settings.</string>
+</resources>

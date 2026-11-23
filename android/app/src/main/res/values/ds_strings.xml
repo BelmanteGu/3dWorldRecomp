@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The design system's own strings (prefix ds_): nothing here is the game's. -->
+<resources>
+    <string name="ds_on">On</string>
+    <string name="ds_off">Off</string>
+    <string name="ds_choose">Choose</string>
+    <string name="ds_badge_restart">restart</string>
+    <string name="ds_badge_experimental">EXPERIMENTAL</string>
+    <string name="ds_restart_banner">Restart the game to apply the changes</string>
+    <string name="ds_back">BACK</string>
+    <string name="ds_reset_title">Restore defaults</string>
+    <string name="ds_reset_message">Put every option of the tab %1$s back to its default?</string>
+    <string name="ds_say_reset">Defaults restored</string>
+    <string name="ds_hint_select">Select</string>
+    <string name="ds_hint_back">Back</string>
+    <string name="ds_details">Details</string>
+    <string name="ds_close">Close</string>
+    <string name="ds_copy">Copy</string>
+    <string name="ds_cap_restore">Restore</string>
+    <string name="ds_cap_view">View</string>
+    <string name="ds_cap_edit">Edit</string>
+    <string name="ds_cap_save">Save</string>
+    <string name="ds_cap_share">Share</string>
+    <string name="ds_cap_delete">Delete</string>
+    <string name="ds_cap_clear">Clear</string>
+    <string name="ds_cap_choose">Choose</string>
+    <string name="ds_cap_open">Open</string>
+    <string name="ds_cap_import">Import</string>
+</resources>

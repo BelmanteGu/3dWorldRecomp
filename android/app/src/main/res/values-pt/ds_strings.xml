@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The design system's own strings (prefix ds_): nothing here is the game's. -->
+<resources>
+    <string name="ds_on">Ligado</string>
+    <string name="ds_off">Desligado</string>
+    <string name="ds_choose">Escolher</string>
+    <string name="ds_badge_restart">reiniciar</string>
+    <string name="ds_badge_experimental">EXPERIMENTAL</string>
+    <string name="ds_restart_banner">Reinicie o jogo para aplicar as mudanças</string>
+    <string name="ds_back">VOLTAR</string>
+    <string name="ds_reset_title">Restaurar padrões</string>
+    <string name="ds_reset_message">Voltar todas as opções da aba %1$s ao padrão?</string>
+    <string name="ds_say_reset">Padrões restaurados</string>
+    <string name="ds_hint_select">Escolher</string>
+    <string name="ds_hint_back">Voltar</string>
+    <string name="ds_details">Detalhes</string>
+    <string name="ds_close">Fechar</string>
+    <string name="ds_copy">Copiar</string>
+    <string name="ds_cap_restore">Restaurar</string>
+    <string name="ds_cap_view">Ver</string>
+    <string name="ds_cap_edit">Editar</string>
+    <string name="ds_cap_save">Salvar</string>
+    <string name="ds_cap_share">Enviar</string>
+    <string name="ds_cap_delete">Apagar</string>
+    <string name="ds_cap_clear">Limpar</string>
+    <string name="ds_cap_choose">Escolher</string>
+    <string name="ds_cap_open">Abrir</string>
+    <string name="ds_cap_import">Importar</string>
+</resources>
