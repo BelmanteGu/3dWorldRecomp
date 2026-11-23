@@ -138,7 +138,7 @@ Reports from other phones (especially Mali/Exynos/Tensor GPUs) are very welcome:
 - This repository contains **no** game code, game assets or keys. The game-specific code is generated locally from your
   own dump and **must not be redistributed**, nor any APK or executable built from it. Releases of this project, if any,
   contain only the runtime and tools.
-- The screenshots show the game running on this runtime, for documentation.
+- The icon (the game's own, from its `meta` folder) and the screenshots show the game running on this runtime, for documentation.
 
 ## 💜 Credits
 
